@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{f0137689-cd4b-4b2a-967d-286208d1ffeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{4de7fba3-357a-4098-afe0-239fc8efae1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="strings">
+      <UniqueIdentifier>{eb68c034-c87f-473f-981f-9f8b6bd70e8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="memory\memccpy.c">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\memchr.c">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\memcmp.c">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\memcpy.c">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\memicmp.c">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\memmove.c">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\memset.c">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\print.c">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\system.c">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\ctype.c">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\strcat.c">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\strchr.c">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\strcmp.c">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\strcpy.c">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\strlen.c">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\strncat.c">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\strncmp.c">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\strncpy.c">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\strnlen.c">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\strrchr.c">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\strupr.c">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\strtoull.c">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\strstr.c">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\strnicmp.c">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\strlwr.c">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\stricmp.c">
+      <Filter>strings</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="memory\memory.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h" />
+    <ClInclude Include="utilities\print.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\system.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="strings\strings.h">
+      <Filter>strings</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
